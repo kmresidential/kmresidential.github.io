@@ -1,0 +1,190 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url("./img/body_background.png");
+}
+
+img {
+	border: 0;
+}
+
+.float-right {
+	position: relative;
+	float: right;
+	margin-left: 25px;
+}
+
+img.vertical-align {
+	vertical-align: middle;
+}
+
+#searchform {
+	position: relative;
+	top: 22px;
+}
+
+#headerWrapper {
+	background: url("./img/header_background.png") repeat-x;
+}
+
+#headerContainer {
+	background: url("./img/header.png") no-repeat top center;
+	height: 150px;
+	width: 800px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: right;
+}
+
+#menuWrapper {
+	background: url("./img/menu_background.png");
+}
+	
+#menuContainer {
+	margin: 0 auto;
+	padding: 0;
+	width: 800px;
+	height: 50px;
+}
+
+#nav {
+	margin-top: 0;
+	padding: 0;
+	float: right;
+	height: 50px;
+}
+
+#nav tr {
+	margin: 0;
+	padding: 0;
+}
+
+#nav td{
+	padding: 0 8px;
+	margin: 0 0 0 15px;
+	text-align: center;
+}
+
+#nav a {
+	font: 1.2em Garamond;
+	text-decoration: none;
+	color: 	#000000;
+	position: relative;
+	top: 2px;
+}
+
+#nav td:hover {
+	background: url("./img/pointer.png") no-repeat bottom center;
+}
+
+#nav .current {
+	font-weight: bold;
+}
+
+.contentTitleContainer {
+	float: left;
+	height: 50px;
+	/* No floursh for now; background: url("./img/content_title_background.png") no-repeat bottom left; */
+}
+
+.contentTitle {
+	margin-left: 8px;
+	font: bold 2em Garamond;
+	color: #003333;
+	position: relative;
+	top: 8px;
+}
+
+#contentWrapper {
+	background: url("./img/content_background.png");	
+}
+
+#contentContainer {
+	margin: 0 auto;
+	padding: 1px;
+	width: 740px;
+	clear: left;
+	font: 1.1em Garamond;
+	color: #FFFFFF;
+	line-height: 1.4em;
+}
+
+#contentContainer a {
+	background: url("./img/content_link.png") repeat-x bottom;
+	color: inherit;
+	font-weight: inherit;
+	text-decoration: inherit;
+}
+
+#contentContainer .title {
+	padding-top: 13px;
+	padding-bottom: 7px;
+	position: relative;
+	right: 13px;
+	top: 12px;
+	font-size: 1.2em;
+}
+
+#contentContainer .bq {
+	background: url("./img/blockquote_quote.png") no-repeat top left;
+	padding-left: 45px;
+	font-size: 1.1em;
+	line-height: 1.2em;
+}
+
+
+
+#contentContainer .bq-float-right  {
+	background: url("./img/blockquote_quote.png") no-repeat top left;
+	width: 300px;
+	padding-left: 45px;
+	font-size: 1.4em;
+	line-height: 1.3em;
+	margin: 0 0 0 40px;	
+	float: right;
+	margin-right: 0;
+}
+
+#contentContainer .bq-float-left   {
+	background: url("./img/blockquote_quote.png") no-repeat top left;
+	width: 300px;
+	padding-left: 45px;
+	font-size: 1.4em;
+	line-height: 1.3em;
+	margin: 0 40px 0 0;
+	float: left;
+	margin-left: 0;
+}
+
+div .signature {
+	text-align: right;
+	font-style: italic;
+	width: 100%;
+}
+
+#footerWrapper {
+	background-attachment: fixed;
+	background: url("./img/footer_border_upper.png") repeat-x top;
+}
+
+#footerContainer {
+	margin: 0 auto;
+	padding: 30px 0;
+	width: 800px;
+	height: 100px;
+	text-align: center;
+	position: relative;
+	left: -35px;
+}
+
+#footer-logo {
+	position: relative;
+	left: -35px;
+	top: -25px;
+}
+
+#footer-re-logo {
+	position: relative;
+	left: 35px;
+	top: -20px;
+}
